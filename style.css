@@ -1,0 +1,70 @@
+body{
+    background-image: url("back.png");
+}
+
+
+.menu1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-image: url("fill.png");
+    width: 692px;
+    height: 35px;
+    left: 0;
+    right: 0;
+    border-right: 2px solid rgba(187, 187, 187, 0.575);
+    border-left: 4px solid rgba(187, 187, 187, 0.575);
+    
+}
+.menu1 ul {
+    margin-top: -6px;
+    margin-left: -50px;
+}
+.menu1 li {
+    float: left;
+    list-style-type: none;
+    border-right: 2px solid rgba(187, 187, 187, 0.575);
+}
+
+.menu1 li a {
+    float: left;
+    display: block;
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu1 li a:hover {
+    background-color: rgba(26, 26, 26, 0.815);
+}
+
+.menu1 li a:active { 
+    background-color: rgb(23, 139, 49);
+}
+
+.key {
+    float: left;
+    border-radius: 3px 10px;
+    border: 2px solid rgba(187, 187, 187, 0.575);
+    padding: 3px; 
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    margin-right: 5px;  
+}
+
+.notify-bubble {
+    position: left;
+    padding: 2px 5px 2px 6px;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    font-size: 0.65em;
+    border-radius: 50%;
+    display: none;
+  }
