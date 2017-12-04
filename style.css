@@ -57,13 +57,16 @@ body{
     margin-top: -4px;
     margin-right: 5px;  
 }
-
-.notify-bubble {
-    position: left;
-    padding: 2px 5px 2px 6px;
-    background-color: rgb(128, 0, 0);
+.button__badge {
+    background-color: #fa3e3e;
+    border-radius: 7px;
     color: white;
-    font-size: 0.65em;
-    border-radius: 50%;
-    display: none;
+   
+    padding: 1px 3px;
+    font-size: 10px;
+    
+    position: absolute; /* Position the badge within the relatively positioned button */
+    top: 0;
+    right: 0;
+    /*display: none;*/
   }
